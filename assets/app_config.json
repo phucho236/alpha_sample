@@ -1,0 +1,95 @@
+{
+  "expires_in": 120,
+  "app_name": "Alpha Sample",
+  "package_name": "com.alpha.sample",
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbG...",
+  "refresh_token": "ZFDPA1S7H8Wydjkjl+xt+hPGWTagX...",
+  "base_url": "http://dummy.restapiexample.com/api/v1/",
+  "screens": [
+    {
+      "name": "login_screen",
+      "enable_screen": true,
+      "configs": [
+        {
+          "key": "login_facebook",
+          "value": true
+        },
+        {
+          "key": "login_google",
+          "value": true
+        },
+        {
+          "key": "login_apple",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "fcm_notification",
+      "enable_feature": true
+    },
+    {
+      "name": "dark_mode",
+      "enable_feature": true
+    },
+    {
+      "name": "multi_language",
+      "enable_feature": true
+    },
+    {
+      "name": "local_notification",
+      "enable_feature": true,
+      "configs": [
+        {
+          "key": "schedule_duration",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "qr_code",
+      "enable_feature": true,
+      "configs": [
+        {
+          "key": "scan_qr_code",
+          "value": true
+        },
+        {
+          "key": "create_qr_code",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "view_image",
+      "enable_feature": true,
+      "configs": [
+        {
+          "key": "zoom",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "ads",
+      "enable_feature": true
+    }
+  ],
+  "permissions": [
+    {
+      "id": "wkxmdazl",
+      "name": "update-users",
+      "description": "Update a User.",
+      "display_name": null
+    },
+    {
+      "id": "qrvzpjzb",
+      "name": "delete-users",
+      "description": "Delete a User.",
+      "display_name": null
+    }
+  ],
+  "total_screen": 86
+}

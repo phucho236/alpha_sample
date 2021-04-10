@@ -1,0 +1,137 @@
+{
+  "expires_in": 120,
+  "app_name": "Alpha Sample",
+  "package_name": "com.alpha.sample",
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbG...",
+  "refresh_token": "ZFDPA1S7H8Wydjkjl+xt+hPGWTagX...",
+  "base_url": "http://dummy.restapiexample.com/api/v1/",
+  "screens": [
+    {
+      "name": "splash_screen",
+      "enable_screen": true,
+      "configs": [
+        {
+          "key": "loading",
+          "value": false
+        },
+        {
+          "key": "load_config_url",
+          "value": "https://www.lipsum.com/"
+        },
+        {
+          "key": "primary_color",
+          "value": "0xFF880E4F"
+        },
+        {
+          "key": "secondary_color",
+          "value": "0xFFC2185B"
+        }
+      ]
+    },
+    {
+      "name": "login_screen",
+      "enable_screen": true,
+      "configs": [
+        {
+          "key": "show_username",
+          "value": true
+        },
+        {
+          "key": "valid_user_name",
+          "value": true
+        },
+        {
+          "key": "show_password",
+          "value": true
+        },
+        {
+          "key": "valid_password",
+          "value": true
+        },
+        {
+          "key": "login_facebook",
+          "value": true
+        },
+        {
+          "key": "login_google",
+          "value": true
+        },
+        {
+          "key": "login_apple",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "images",
+      "enable_screen": true,
+      "configs": [
+        {
+          "key": "zoom",
+          "value": true
+        },
+        {
+          "key": "crop_square",
+          "value": true
+        },
+        {
+          "key": "crop_ratio3x2",
+          "value": true
+        },
+        {
+          "key": "crop_ratio4x3",
+          "value": true
+        },
+        {
+          "key": "ratio16x9",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "offline_mode",
+      "enable_feature": true,
+      "configs": [
+        {
+          "key": "load_empty_view",
+          "value": false
+        }
+      ]
+    },
+    {
+      "feature": "qr_code",
+      "enable_screen": true,
+      "configs": [
+        {
+          "key": "scan_qr_code",
+          "value": true
+        },
+        {
+          "key": "button_flash_camera",
+          "value": true
+        },
+        {
+          "key": "button_front_to_back_camera",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "wkxmdazl",
+      "name": "update-users",
+      "description": "Update a User.",
+      "display_name": null
+    },
+    {
+      "id": "qrvzpjzb",
+      "name": "delete-users",
+      "description": "Delete a User.",
+      "display_name": null
+    }
+  ],
+  "total_screen": 86
+}
